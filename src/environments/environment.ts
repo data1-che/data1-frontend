@@ -1,9 +1,22 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+// Con sintaxis Commonjs (Si, estas usando Node)
+const firebase = require("firebase/app");
+require("firebase/firestore");
 
 export const environment = {
-  production: false
+  urlBackend: "http://localhost:8080",
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyAChnnsrTcfyVZgeb9yjAd8qmgtLaw7LCk",
+    authDomain: "che-proyecto-integrador.firebaseapp.com",
+    projectId: "che-proyecto-integrador",
+    storageBucket: "che-proyecto-integrador.appspot.com",
+    messagingSenderId: "565057101421",
+    appId: "1:565057101421:web:70d7cb1aadcad17f68a964",
+    measurementId: "G-4622ZJDVCP",
+}
 };
 
 /*

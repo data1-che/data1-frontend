@@ -1,0 +1,144 @@
+{
+    "id": "2",
+    "aboutMe": [
+        {
+            "name": "ABOUT-Hernan Canestraro",
+            "fecha_nacimiento": "27/09/1976",
+            "nacionalidad": "Argentino",
+            "mail": "hernancanestraro@gmail.com",
+            "bannerImage": "./../media/zxspectrum.jpeg",
+            "profilePicture": "./../media/chedata1foto.png",
+            "ocupation": "Full Stack Web Developer Jr.",
+            "ubication": "La Matanza, Buenos Aires, Argentina",
+            "institution": "Intituto Nacional de Tecnología Industrial",
+            "institutionImage": "./../media/cheinti.png",
+            "posicion": "Estudiante",
+            "descripcion": "Description"
+        
+        }
+    ],
+    "Persona": [
+        {
+            "id": "1",
+            "nombres": "X-Hernan Canestraro",
+            "apellido": "X-Hernan Canestraro",
+            "fecha_nacimiento": "27/09/1976",
+            "nacionalidad": "Argentino",
+            "mail": "hernancanestraro@gmail.com",
+            "sobre_mi": "Autodidacta",
+            "ocupación": "Programador Full Stack",
+            "image_background_header": "https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-shading-red-shard-geometry-banner-background-shadingred-debrisred-glowgeometry-image_80184.jpg",
+            "image_perfil": "https://drive.google.com/uc?export=download&id=1DdFJjIWAxC9QQMOaUlxnddhe5nl6YPdI",
+            "id_domicilio": "2"
+        }
+    ],
+    "education": [
+        {
+            "escuela": "UTN",
+            "titulo": "Ingeniería",
+            "imagen": "./../media/cheinti.png",
+            "carrera": "Sistemas Computacionales",
+            "puntaje": 100,
+            "inicio": "2019",
+            "fin": "2023"
+        },
+        {
+            "escuela": "X-Centro de Enseñanza Técnica Industrial",
+            "titulo": "Tecnologo",
+            "imagen": "./../media/cheinti.png",
+            "career": "Desarrollo de Software",
+            "puntaje": 82,
+            "inicio": "2014",
+            "fin": "2018"
+        },
+        {
+            "escuela": "Escuela Secundaria Técnica 14",
+            "titulo": "Técnico",
+            "imagen": "./../media/cheinti.png",
+            "career": "Electronica, comunicacion y sistemas de control",
+            "puntaje": 70,
+            "inicio": "2012",
+            "fin": "2014"
+        }
+    ],
+    "experience": [
+        {
+            "ocupation": "Administrador de Finanzas",
+            "place": "Pastas Anita",
+            "period": "Agosto 2020 - Febrero 2021",
+            "description": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        },
+        {
+            "ocupation": "Administrador de Finanzas",
+            "place": "Pastas Anita",
+            "period": "Agosto 2020 - Febrero 2021",
+            "description": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        },
+        {
+            "ocupation": "Administrador de Finanzas",
+            "place": "Pastas Anita",
+            "period": "Agosto 2020 - Febrero 2021",
+            "description": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        }
+    ],
+    "hardskills": [
+        {
+            "name": "HTML",
+            "level": 75
+        },
+        {
+            "name": "CSS",
+            "level": 65
+        },
+        {
+            "name": "Java",
+            "level": 70
+        },
+        {
+            "name": "COBOL",
+            "level": 95
+        },
+        {
+            "name": "MySQL",
+            "level": 60
+        }
+    ],
+    "softskills": [
+        {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    }
+    ],
+    "projects": [
+        {
+            "name": "Proyecto Integrador: Argentina Programa",
+            "description": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo",
+            "linkLiveDemo": "https://k-cr.github.io/portfolio-unidad2-AP/",
+            "linkSourceCode": "https://github.com/data1-che/data1-frontend",
+            "projectImage": "./../media/cheinti.png"
+        },
+        {
+            "name": "Proyecto Final: Argentina Programa",
+            "description": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo",
+            "linkLiveDemo": "https://k-cr.github.io/portfolio-unidad2-AP/",
+            "linkSourceCode": "https://github.com/k-cr/portfolio-unidad2-AP",
+            "projectImage": "./../media/cheinti.png"
+        },
+        {
+            "name": "Proyecto Portfolio: Argentina Programa",
+            "description": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo",
+            "linkLiveDemo": "https://k-cr.github.io/portfolio-unidad2-AP/",
+            "linkSourceCode": "https://github.com/k-cr/portfolio-unidad2-AP",
+            "projectImage": "./../media/cheinti.png"
+        }
+    ]
+
+}

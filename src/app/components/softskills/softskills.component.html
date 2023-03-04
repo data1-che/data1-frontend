@@ -1,0 +1,35 @@
+<div class="row">
+    <div *ngFor="let myPortfolio of myPortfolio ; let i = index" [attr.data-index]="i" class="col-md-3 col-sm-12">
+
+      <div class="text-center m-3 border rounded p-2 bg-white shadow-lg">
+
+        <!-- MÓDULO BOTONES EDIT -->
+
+        <div *ngIf="modoEdicion===false">
+          <div class=" d-flex justify-content-end">
+            <div class="p-1">
+              <button class="btn p-0 m-1" (click)="onEdit(myPortfolio.id, i,  $event)"><span><img
+                    src="./../../../assets/media/logoPencil.png" alt="editar" class="logo-sm mt-1"></span></button>
+            </div>
+
+            <div class="p-1">
+              <button class="btn p-0 m-1" (click)="onDelete(i, $event)"><span><img src="assets/media/logoDelete.png"
+                    alt="editar" class="logo-sm mt-1"></span></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIN MÓDULO BOTONES EDIT -->
+
+        <!--ITEMS VISIBLES-->
+        <h4 class="m-2 mb-2">Descripcion: {{myPortfolio.name}}</h4>
+        <h4 class="m-2 mb-2">Level: {{myPortfolio.level}}</h4> 
+        <!-- FIN ITEMS VISIBLES-->
+        <div class="progress">
+            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow = `{myPortfolio.level}` aria-valuemin="0" aria-valuemax="100" style="width: 75%;">{{myPortfolio.level}}%</div>
+        </div>
+    </div>
+      </div>
+
+    </div>
+  

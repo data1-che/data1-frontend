@@ -1,0 +1,68 @@
+<div class="container-fluid p-1 shadow">
+    <div class="row d-flex flex-wrap justify-content-between col-12 bg-white">
+        <div class="d-flex flex-wrap justify-content-around col-md-6 col-sm-12">
+            <div class="d-flex col-md-4 col-sm-4 justify-content-center mt-1">
+                <img src="./../../../assets/media/logoArgProg.png" alt="logoargentinaprograma" class="logo-arg bg-danger m-1 rounded shadow">
+            </div>
+            <div class="d-flex col-md-8 col-sm-8 justify-content-center text-center">
+                <p class="fw-bold ms-3 mt-3">PROYECTO FINAL</p>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-around mt-2 col-md-6 col-sm-12">
+            <div class="d-flex container-fluid flex-direction-row justify-content-center">
+                <div class="d-flex container flex-direction-row justify-content-between col-6">
+                    <a href="https://github.com/AllTesterLabs" target="_blank"> <!-- rel="noreferrer noopener" -->
+                        <img src="./../../../assets/media/logo-github.svg" alt="Github"
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank"> <!-- rel="noreferrer noopener" -->
+                        <img src="./../../../assets/media/cheinstagram.png" alt="My Instagram..."
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noreferrer noopener">
+                        <img src="./../../../assets/media/chetwitter.png" alt="My Twitter..."
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer noopener">
+                        <img src="./../../../assets/media/chelinkedin.png" alt="My Linkedin..."
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                    <a href="https://sites.google.com/view/che-chipsoft/" target="_blank" rel="noreferrer noopener">
+                        <img src="./../../../assets/media/chegooglesites.jpeg" alt="My Google Sites"
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener">
+                        <img src="./../../../assets/media/cheyoutube.png" alt="My Youtube"
+                            class="logo-sm  m-1 shadow rounded p-1">
+                    </a>
+                </div>
+                <!-- ESPACIO PARA UN BOTÓN -->
+                <div class="d-flex col-md-10 col-sm-10 justify-content-center mb-2">
+                    <div *ngIf="portfolioActive === false ">
+                        <div class="d-flex justify-content-around col-md-12 col-sm-12">
+                            <div class="col-12 text-center">
+                                <button class="btn btn-info btn-md w-100 text-white fw-bold shadow-lg"
+                                    routerLink="/login">MODO EDICIÓN</button>
+                            </div>
+                            <!--
+                              <div class="col-8 text-center ">
+                                <button class="btn btn-info border border-info btn-md w-100 text-white fw-bold fw-bold shadow-lg ms-3"
+                                    routerLink="/register"
+                                >CREAR CUENTA</button>
+                              </div>
+                              -->
+                        </div>
+                    </div>
+                    <div *ngIf="portfolioActive === true">
+                        <div class="d-flex justify-content-around col-md-12 w-100 col-sm-12 mt-1 mb-2">
+                            <div class="col-6 w-100 text-center">
+                                <button class="btn btn-dark rounded btn-md w-100 text-white fw-bold shadow-lg"
+                                    (click)="logout($event)">TERMINAR EDICIÓN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

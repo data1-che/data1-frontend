@@ -1,0 +1,158 @@
+{
+    "id": "1",
+    "fullName": "Canestraro Hernan Enrique",
+    "name": "Canestraro Hernan Enrique",
+    "fecha_nacimiento": "27/09/1976",
+    "nacionalidad": "Argentino",
+    "mail": "hernancanestraro@gmail.com",
+    "bannerImage": "https://drive.google.com/uc?export=download&id=1H-fPPXI-WczRIV2N0cPiF2xu0_IUBklS",
+    "profilePicture": "https://drive.google.com/uc?export=download&id=1DdFJjIWAxC9QQMOaUlxnddhe5nl6YPdI",
+    "ocupation": "Estudiante Programación",
+    "ubication": "Buenos Aires, La Matanza, Argentina",
+    "company": {
+        "name": "I.N.T.I. Argentina Programa",
+        "url": "https://argentinaprograma.inti.gob.ar",
+        "logo": "https://drive.google.com/uc?export=download&id=1-lX9QgBw8iGXLEgBd_pmdsM_Fz3l6LJn"
+    },
+    "institution": "Intituto Nacional de Tecnología Industrial",
+    "institutionImage": "./../media/cheinti.png",
+    "about": "Sobre mí...Sobre mí...Sobre mí...Sobre mí...Sobre mí...Sobre mí...",
+    "aboutMe": [
+        {
+            "name": "DATA1 Hernan Canestraro",
+            "fecha_nacimiento": "27/09/1976",
+            "nacionalidad": "Argentino",
+            "mail": "hernancanestraro@gmail.com",
+            "bannerImage": "./../media/zxspectrum.jpeg",
+            "profilePicture": "./../media/chedata1foto.png",
+            "ocupation": "Full Stack Web Developer Jr.",
+            "ubication": "La Matanza, Buenos Aires, Argentina",
+            "institution": "Intituto Nacional de Tecnología Industrial",
+            "institutionImage": "./../media/cheinti.png",
+            "posicion": "Estudiante",
+            "descripcion": "Description"
+            }
+    ],
+    "Persona": [
+        {
+            "id": "1",
+            "nombres": "PERSONA Hernan Canestraro",
+            "apellido": "Hernan Canestraro",
+            "fecha_nacimiento": "27/09/1976",
+            "nacionalidad": "Argentino",
+            "mail": "hernancanestraro@gmail.com",
+            "sobre_mi": "Autodidacta",
+            "ocupación": "Programador Full Stack",
+            "image_background_header": "https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-shading-red-shard-geometry-banner-background-shadingred-debrisred-glowgeometry-image_80184.jpg",
+            "image_perfil": "https://drive.google.com/uc?export=download&id=1DdFJjIWAxC9QQMOaUlxnddhe5nl6YPdI",
+            "id_domicilio": "2"
+        }
+    ],
+    "education": [
+        {
+            "escuela": "UTN",
+            "titulo": "Ingeniería",
+            "imagen": "./../media/cheinti.png",
+            "carrera": "Sistemas Computacionales",
+            "puntaje": 100,
+            "inicio": "2019",
+            "fin": "2023"
+        },
+        {
+            "escuela": "Centro de Enseñanza Técnica Industrial",
+            "titulo": "Tecnologo",
+            "imagen": "./../media/cheinti.png",
+            "carrera": "Desarrollo de Software",
+            "puntaje": 82,
+            "inicio": "2014",
+            "fin": "2018"
+        },
+        {
+            "escuela": "Escuela Secundaria Técnica 14",
+            "titulo": "Técnico",
+            "imagen": "./../media/cheinti.png",
+            "carrera": "Electronica, comunicacion y sistemas de control",
+            "puntaje": 70,
+            "inicio": "2012",
+            "fin": "2014"
+        }
+    ],
+    "experience": [
+        {
+            "ubicacion": "Administrador de Finanzas",
+            "puesto": "Pastas Anita",
+            "periodo": "Agosto 2020 - Febrero 2021",
+            "empresa": "IBM",
+            "actividades": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        },
+                {
+            "ubicacion": "Administrador de Finanzas",
+            "puesto": "Pastas Anita",
+            "periodo": "Agosto 2020 - Febrero 2021",
+            "empresa": "IBM",
+            "actividades": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        },
+        {
+            "ubicacion": "Administrador de Finanzas",
+            "puesto": "Pastas Anita",
+            "periodo": "Agosto 2020 - Febrero 2021",
+            "empresa": "IBM",
+            "actividades": "Atención al público. Diseño de publicidad para las ventas. Administrador de las finanzas del microemprendimiento y del stock del mismo"
+        }
+
+
+    ],
+    "hardskills": [
+        {
+            "name": "HTML",
+            "level": "75"
+        },
+        {
+            "name": "CSS",
+            "level": "65"
+        },
+        {
+            "name": "Java",
+            "level": "70"
+        },
+        {
+            "name": "COBOL",
+            "level": "95"
+        },
+        {
+            "name": "MySQL",
+            "level": "60"
+        }
+    ],
+    "softskills": [
+        {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    },
+    {
+        "description": "SoftSkills... Description..."
+    }
+],
+    "project": [
+        {
+            "titulo": "Proyecto Integrador: Argentina Programa",
+            "imagen": "https://drive.google.com/uc?export=download&id=1-lX9QgBw8iGXLEgBd_pmdsM_Fz3l6LJn",
+            "descripcion": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo"
+        },
+        {
+            "titulo": "Proyecto Final: Argentina Programa",
+            "imagen": "https://drive.google.com/uc?export=download&id=1-lX9QgBw8iGXLEgBd_pmdsM_Fz3l6LJn",
+            "descripcion": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo"
+        },
+        {
+            "titulo": "Proyecto Portfolio: Argentina Programa",
+            "imagen": "https://drive.google.com/uc?export=download&id=1-lX9QgBw8iGXLEgBd_pmdsM_Fz3l6LJn",
+            "descripcion": "Proyecto realizado como práctica para la segunda etapa de Argentina Programa, #YoProgramo"
+        }
+    ]
+}
