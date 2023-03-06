@@ -7,15 +7,20 @@ import { map } from "rxjs/operators";
   providedIn: 'root'
 })
 export class AuthenticationService {
-  urlLogin="http://localhost:4200/login";
-  urlNuevo="http://localhost:8080/";
+  urlLogin="http://localhost:4200/"; 
+  urlNuevo="http://localhost:8080/"; 
+  /* url="http://localhost:4200/login"; */
   usuario: BehaviorSubject<any>;
 
   constructor(private http:HttpClient) { 
+    console.log("EL SERVICIO DE AUTENTICACION ESTA CORRIENDO");
     this.usuario = new BehaviorSubject<any>(JSON.parse(sessionStorage.getItem('token') || '{}'));
   }
-
   login(credenciales:any):Observable<any>{
+    /* return this.http.post(this.urlLogin , credenciales);
+  } */
+
+  /* login(credenciales:any):Observable<any>{ */
     /* return this.http.post(this.urlLogin , credenciales); */
    /* return this.http.post(this.url, credenciales).pipe(map(data => {
       console.log("Archivo Autenticacion Service , credenciales: ", credenciales);

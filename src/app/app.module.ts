@@ -29,12 +29,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FiresComponent } from './components/fires/fires.component';
 import { SoftskillsComponent } from './components/softskills/softskills.component';
 
-const appRoutes: Routes = [
+/* const appRoutes: Routes = [
   {path:"", component: LoginComponent},
   {path:'login', component: LoginComponent},
   {path:"portfolio", component: PortfolioComponent},
   {path:"**", component: PageNotFoundComponent}
-]
+] */
 
 @NgModule({
   declarations: [
@@ -59,8 +59,8 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes,{enableTracing:true}),
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+/*     RouterModule.forRoot(appRoutes,{enableTracing:true}),
+ */    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   providers: [PortfolioService, { provide: HTTP_INTERCEPTORS,
     useClass: InterceptorService, multi: true}],

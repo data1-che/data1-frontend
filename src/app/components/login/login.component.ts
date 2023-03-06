@@ -24,9 +24,7 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  ngOnInit() {
-
-  }
+  ngOnInit() { }
 
   //get Email(){
   //  return this.form.get('email');
@@ -42,7 +40,7 @@ export class LoginComponent implements OnInit {
 
   onLogin(event:Event ){
     event.preventDefault;
-    !this.authenticationService.login(this.form.value).subscribe(data => {
+    this.authenticationService.login(this.form.value).subscribe(data => {
     console.log("Archivo OnLogin Component , seteo del token: ", data.token);
     sessionStorage.setItem('token', data.token);
     this.authenticationService.setToken(data.token);

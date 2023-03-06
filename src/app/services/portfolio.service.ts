@@ -80,6 +80,7 @@ export class PortfolioService {
   }
 
   obtenerOneDatosEducation(id: number): Observable<IEducation> {
+    console.log("OBTENERDATOSEDUCATION",this.http.get<IEducation>(this.url + 'Education/' + id));
     return this.http.get<IEducation>(this.url + 'Education/' + id);
   }
 
@@ -155,7 +156,7 @@ export class PortfolioService {
   }
 
   putProject(Project: IProject, id: Number): Observable<IProject> {
-    return this.http.put<IProject>(this.url + 'Projects/' + id, Project, {
+    return this.http.put<IProject>(this.url + 'Project/' + id, Project, {
       headers: this.headers,
     });
   }
@@ -189,7 +190,8 @@ export class PortfolioService {
   }
 
   deleteProject(id: Number): Observable<IProject> {
-    return this.http.delete<IProject>(this.url + 'Projects/' + id, {
+    console.log("DELETE PROJECT:",this.url+"Project/"+id);
+    return this.http.delete<IProject>(this.url + 'Project/' + id, {
       headers: this.headers,
     });
   }
